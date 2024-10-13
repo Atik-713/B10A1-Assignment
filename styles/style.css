@@ -209,8 +209,10 @@ body {
   margin: 0 auto;
   margin-top: 48px;
 }
-.support-container .main-title,
-.description-text {
+.sup-text > .main-title {
+  color: #fff;
+}
+.sup-text > .description-text {
   color: #fff;
 }
 .suggestion-box {
