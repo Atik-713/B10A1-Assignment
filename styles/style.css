@@ -1,8 +1,8 @@
 /* Font Link Here */
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
-.azeret-mono-normal {
+/* .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
-}
+} */
 * {
   padding: 0;
   margin: 0;
@@ -149,6 +149,10 @@ body {
   /* margin: 0 auto; */
   text-align: center;
   align-self: stretch;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  margin: 0 200px;
+  padding: 32px;
 }
 .tubeVideo iframe {
   border-radius: 16px;
@@ -201,7 +205,7 @@ body {
 
 /* Support Section Style Part--------------- */
 .support-container {
-  background-image: url("../assets/handshake.jpg");
+  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../assets/handshake.jpg");
   border-radius: 16px;
   background-position: center;
   width: 1288px;
@@ -245,7 +249,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin:80px 250px;
+  padding: 32px 252px;
+  margin-top: 80px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
 }
 .foot-title {
   color: #0d1321;
